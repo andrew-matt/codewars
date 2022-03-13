@@ -1,0 +1,1 @@
+const DNAtoRNA = (dna) => dna.split("").map(el => el === "T" ? "U" : el).join("")
